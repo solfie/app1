@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // Esee método faz ligação entre a view e activity
+        setContentView(R.layout.activity_main); // Esse método faz ligação entre a view e activity
         Button btnEnviar = findViewById(R.id.btnEnviar); //Usando o método findViewById para localizar um button Enviar através do id
         btnEnviar.setOnClickListener(new View.OnClickListener() /*Permite definir a ação que será disparada ao clicar no botão, que seria de enviar */{
             @Override

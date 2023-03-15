@@ -9,13 +9,13 @@ import android.widget.TextView;
 public class ProximaActivity extends AppCompatActivity {
 
     @Override
-
+//
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_proxima);
+        setContentView(R.layout.activity_proxima); //Esse método faz ligação entre a view e activity
         Intent i = getIntent();
         String textoDigitado = i.getStringExtra("texto");
-        TextView tvTexto = findViewById(R.id.tvTexto);
+        TextView tvTexto = findViewById(R.id.tvTexto); //Usando o método findViewById para localizar um button Enviar através do id
         tvTexto.setText(textoDigitado);
     }
 }
