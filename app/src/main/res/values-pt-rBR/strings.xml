@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Charlotte</string>
+    <string name="et_texto_hint">Chacha</string>
+    <string name="btn_texto_hint">Chaca</string>
+</resources>
